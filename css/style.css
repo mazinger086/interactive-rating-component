@@ -1,0 +1,156 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+
+
+ img {
+    display: block;
+    max-width: 100%;
+ }
+
+ body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    min-height: 100vh;   
+    background-color: #000000;
+    margin: 0;
+    color: #fff;
+    font-family: 'Overpass', sans-serif;
+ }
+
+  .container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 375px;
+    max-width: 100%;
+    min-height: 100%;      
+  }
+
+  @media (min-width:768px) {
+    .container {
+        /* margin: 152px 0; */
+        max-width: 1440px;
+    }
+  }
+
+  .card {
+    width: 377px; 
+    background-color:hsl(216, 12%, 8%);
+    padding: 25px;
+    border-radius: 10px;
+    /* Usamos el display none para armar la card de thanks */
+    display: block;
+  }
+
+  .card .star {
+    border-radius: 50%;
+    padding: 10px;
+    background-color: hsl(213, 19%, 18%);
+  }
+
+  .card h3 {
+    font-weight: 700px;
+    font-size: 20px;
+  }
+
+  .card p{
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(217, 12%, 63%);
+    line-height: 1.8;
+  }
+
+  .rating {
+    display: flex;
+    justify-content: center;
+    column-gap: 18px;
+    margin-bottom: 24px;
+  }
+
+  .numbers {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    font-size: 14px;
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(216, 12%, 54%);   
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .numbers:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: #fff; 
+  }
+
+  .btn {
+    height: 46px;
+    border-radius: 35px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(25, 97%, 53%);
+    text-transform: uppercase;
+    width: 100%;
+    cursor: pointer;
+    letter-spacing: 3px;
+  }
+
+  .btn:hover {
+    background-color: #fff;
+    color:  hsl(25, 97%, 53%);
+  }
+
+  .thanks {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 377px; 
+    background-color:hsl(215, 22%, 15%);
+    padding: 25px;
+    border-radius: 10px;
+  }
+
+  .thanks img {
+    width: 150px;
+  }
+
+  .thanks .choosen-rating {
+    margin-top: 23px;
+    padding: 5px 20px;
+    background-color: hsl(213, 19%, 18%);    
+    border-radius: 35px;
+  }
+
+  .thanks .choosen-rating p {
+    margin: 0;
+    color: hsl(25, 97%, 53%);
+  }
+
+  .thanks h3 {
+    font-weight: 700px;
+    font-size: 20px;
+  }
+
+  .thanks p {
+    margin-top: 0;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 400;
+    color: hsl(217, 12%, 63%);
+    line-height: 1.8;
+  }
+
+  .attribution {
+    margin: 20px;
+  }
