@@ -20,7 +20,7 @@ html {
     justify-content: center;
     align-items: center; 
     min-height: 100vh;   
-    background-color: #000000;
+    background-color: hsl(216, 12%, 8%);
     margin: 0;
     color: #fff;
     font-family: 'Overpass', sans-serif;
@@ -43,8 +43,8 @@ html {
   }
 
   .card {
-    width: 377px; 
-    background-color:hsl(216, 12%, 8%);
+    width: 416px;     
+    background-color:hsl(213, 19%, 18%);
     padding: 25px;
     border-radius: 10px;
     /* Usamos el display none para armar la card de thanks */
@@ -54,12 +54,13 @@ html {
   .card .star {
     border-radius: 50%;
     padding: 10px;
-    background-color: hsl(213, 19%, 18%);
+    background-color: hsl(213, 16%, 22%);
   }
 
   .card h3 {
     font-weight: 700px;
-    font-size: 20px;
+    font-size: 23px;
+    margin-bottom: 20px;
   }
 
   .card p{
@@ -81,7 +82,7 @@ html {
     justify-content: center;
     align-items: center;    
     font-size: 14px;
-    background-color: hsl(213, 19%, 18%);
+    background-color: hsl(213, 16%, 22%);
     color: hsl(216, 12%, 54%);   
     width: 50px;
     height: 50px;
@@ -103,6 +104,7 @@ html {
     width: 100%;
     cursor: pointer;
     letter-spacing: 3px;
+    border: none;
   }
 
   .btn:hover {
@@ -115,8 +117,8 @@ html {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 377px; 
-    background-color:hsl(215, 22%, 15%);
+    width: 416px; 
+    background-color:hsl(213, 19%, 18%);
     padding: 25px;
     border-radius: 10px;
   }
@@ -139,7 +141,7 @@ html {
 
   .thanks h3 {
     font-weight: 700px;
-    font-size: 20px;
+    font-size: 23px;
   }
 
   .thanks p {
