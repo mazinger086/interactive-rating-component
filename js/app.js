@@ -18,10 +18,11 @@ for (const number of numbers) {
 submit.addEventListener('click', () => {
     card.style = "display: none";
     thanks.style = "display: flex";
+
+    setTimeout(()=> {
+        location.reload()
+    },5000)    
     
 })
 
 
-setTimeout(()=> {
-    location.reload()
-},5000)
